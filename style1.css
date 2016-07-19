@@ -1,0 +1,44 @@
+
+nav {
+	display: inline-block;
+	width: 100%;
+}
+
+.top-nav {
+	float: right;
+	padding: 10px;
+}
+
+.top-nav li {
+	list-style: none;
+	padding: 1em;
+}
+
+.top-nav li a {
+	text-decoration: none;
+	color: #222;
+	font-family: "Arial";
+	display: inline-block;
+}
+
+.Sign-in {
+	background: #4885ed;
+	color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    height: 30px;
+    vertical-align: middle;
+    text-shadow: -1px 1px #417cb8;
+  	border: none;
+  	float: right;
+}
+
+.logo {
+	display: flex;
+	width: auto;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	flex-direction: column;
+}

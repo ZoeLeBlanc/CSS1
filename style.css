@@ -1,5 +1,6 @@
 body {
 	display: flex;
+	flex-direction: column;
 }
 
 nav {
@@ -16,13 +17,14 @@ nav {
 
 .top-nav li {
 	list-style: none;
-	padding: 1em;
+	padding: 0.5em;
 }
 
 .top-nav li a {
 	text-decoration: none;
 	color: #222;
 	font-family: "Arial";
+	font-size: 13px;
 }
 
 .Sign-in {
@@ -32,16 +34,92 @@ nav {
     text-decoration: none;
     display: inline-flex;
     font-size: 1em;
+    height: 30px;
+    vertical-align: middle;
+    text-shadow: -1px 1px #417cb8;
+  	border: none;
+  	margin-bottom: auto;
+  	margin-top: auto;
 }
-
 .container {
 	display: flex;
 	flex-direction: column;
 }
 .logo {
-	width: 100%;
-	height: 100%;
+	display: flex;
+	width: auto;
+	height: auto;
 	margin-right: auto;
 	margin-left: auto;
 	flex-direction: column;
+}
+.search {
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	flex-direction: column;
+}
+.search input {
+	width: 650px;
+	border: 1px solid #d9d9d9;
+	height: 38px;
+	background-color: #fff;
+	background: url('../img/googlemic.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.buttons {
+	display: flex;
+	flex-direction: row;
+}
+
+.googleSearch {
+	display: flex;
+	height: 60px;
+    line-height: 27px;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 54px;
+}
+.googleSearchButton {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center;
+}
+.feelingLucky {
+	display: flex;
+	height: 60px;
+    line-height: 27px;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 54px;
+}
+.feelingLuckyButton {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center;
+}
+footer {
+	font-size: 10pt;
+    height: 35px;
+    position: absolute;
+    width: 100%;
 }
