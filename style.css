@@ -1,3 +1,21 @@
 body {
 	background: pink;
 }
+.nav {
+	border: 1px solid black;
+}
+.title {
+	border-color: grey;
+}
+.images {
+	border-color: pink;
+}
+.text1 {
+	border-color: blue;
+}
+.text2 {
+	border-color: green;
+}
+.footer {
+	border-color: yellow;
+}
