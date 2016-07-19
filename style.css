@@ -1,21 +1,34 @@
 body {
 	background: pink;
 }
-.nav {
-	border: 1px solid black;
+
+.top-nav {
+	background-color: goldenrod;
+	height: 40px;
+}
+.top-nav li {
+	list-style-type: none;
+	padding: 5px;
+	display: inline-block;
+	font-family: "Arial";
+	float: right;
+	margin: 5px;
+}
+.top-nav li a {
+	text-decoration: none;
 }
 .title {
-	border-color: grey;
+	border:1px solid grey;
 }
 .images {
-	border-color: pink;
+	border: 2px dotted black;
 }
 .text1 {
-	border-color: blue;
+	border: 3px solid blue;
 }
 .text2 {
-	border-color: green;
+	border: 4px dotted green;
 }
 .footer {
-	border-color: yellow;
+	border: 5px solid yellow;
 }
