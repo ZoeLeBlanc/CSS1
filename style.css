@@ -11,24 +11,36 @@ body {
 	padding: 5px;
 	display: inline-block;
 	font-family: "Arial";
-	float: right;
+	float: left;
 	margin: 5px;
 }
 .top-nav li a {
 	text-decoration: none;
+	color: black;
 }
 .title {
 	border:1px solid grey;
+	text-align: center;
+	font-size: 5em;
 }
-.images {
-	border: 2px dotted black;
+.img-box {
+	background-color: lightblue;
+	width: 28%;
+	height: 10em;
+	padding: 1em;
+	margin: 1em;
+	display: inline-block;
+
 }
 .text1 {
 	border: 3px solid blue;
+	float: left;
 }
 .text2 {
 	border: 4px dotted green;
+	float: right;
 }
 .footer {
 	border: 5px solid yellow;
+	clear: both;
 }
