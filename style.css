@@ -1,34 +1,40 @@
 body {
-	background: pink;
+	display: flex;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
 }
 
 .top-nav {
-	background-color: goldenrod;
-	height: 40px;
+	margin-left: auto;
+	display: inline-flex;
+	padding: 10px;
 }
+
 .top-nav li {
-	list-style-type: none;
-	padding: 5px;
-	display: inline-block;
-	font-family: "Arial";
-	float: right;
-	margin: 5px;
+	list-style: none;
+	padding: 1em;
 }
+
 .top-nav li a {
 	text-decoration: none;
+	color: #222;
+	font-family: "Arial";
 }
-.title {
-	border:1px solid grey;
+
+.Sign-in {
+	background: #4885ed;
+	color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 1em;
 }
-.images {
-	border: 2px dotted black;
-}
-.text1 {
-	border: 3px solid blue;
-}
-.text2 {
-	border: 4px dotted green;
-}
-.footer {
-	border: 5px solid yellow;
+
+.container {
+	display: flex;
+	flex-direction: column;
 }
